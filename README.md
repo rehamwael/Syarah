@@ -1,10 +1,10 @@
 # blog-assignment
 
-https://rehamwael.github.io/blog-assignment/
+https://rehamwael.github.io/Syarah/
 
 Steps for installment: 
 
-1- git clone https://github.com/rehamwael/blog-assignment.git 
+1- git clone https://github.com/rehamwael/Syarah.git
 
 2- npm install 
 
