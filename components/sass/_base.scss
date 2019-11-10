@@ -59,7 +59,11 @@ ul {
 .font-normal {
   font-weight: 600;
 }
-.h3, h3,.h2, h2 {
+body .h1, body h1 {
+  font-size: 2.3rem;
+  font-weight: 600;
+}
+.h3,body h3,.h2,body h2 {
   font-size: 2.1rem;
   line-height: 3rem;
   font-weight: 600;
