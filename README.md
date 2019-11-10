@@ -1,4 +1,4 @@
-# blog-assignment
+# Sayarah
 
 https://rehamwael.github.io/Syarah/
 
