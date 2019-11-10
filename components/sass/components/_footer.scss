@@ -1,0 +1,49 @@
+footer {
+    background: linear-gradient(180deg, #FFFFFF 0%, #F7FAFE 100%);
+    font-size: 13px;
+    .col-lg-3 h4{
+        font-size: 1.1rem;
+        color: #515151;
+    }
+    .subscribe-form {
+        border-radius: 14px;
+        background-color: #FFFFFF;
+        box-shadow: 0 2px 9px 0 rgba(227,237,248,0.63);
+        position: relative;
+        top: -4em;
+        padding: 20px 0 20px;
+        input[type="email"] {
+            border: 1px solid #CAD9E3;
+            border-radius: 5px;
+            background-color: #F8FCFF;
+            padding: 18px 20px;
+            width: 70%;
+            margin: 0 auto;
+            display: block;
+            font-size: 12px;
+            position: relative;
+            &:focus{
+                border: 1px solid #0272BC;
+                box-shadow: none;
+            }
+        }
+        button.btn.blue-btn {
+            border-radius: 5px;
+            background-color: #0272BC;
+            color: #fff;
+            position: relative;
+            top: -52.5px;
+            left: 25.9%;
+            padding: 13px 23px;
+            font-size: 14px;
+        
+        }
+    }
+    ul {
+        li{
+            list-style-type: none;
+            padding: 12px 0;
+            font-size: 13px;
+        }
+    }
+}

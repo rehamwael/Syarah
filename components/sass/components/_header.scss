@@ -1,0 +1,40 @@
+body{
+    nav.navbar-light{
+        transition: all 0.5s ease-in-out;
+        ul{
+            li a.nav-link{
+                color: $blueColor !important;	
+                font-size: 14px;	
+                font-weight: 500;	
+                letter-spacing: -0.28px;	
+                line-height: 15px;
+            }
+        }
+    }
+    nav.navbar.fixed-header {
+        position: fixed;
+        top: 0;
+        background: #fff;
+        z-index: 9999;
+        left: 0;
+        top: 0;
+        right: 0;
+        box-shadow: 1px 2px 1px #eee;
+        width: 100% !important;
+        margin: 0 !important;
+        max-width: 100%;
+        transition: all 0.5s ease-in-out;
+        padding: 1em 3em;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1.7rem;
+        padding-left: 1.7rem;
+    }
+    .connected-car{
+        p{
+            width: 50%;
+            text-align: center;
+            margin: 0 auto;
+        }
+    }
+}

@@ -1,0 +1,28 @@
+// _variables.scss
+// =================
+$blueColor : #0272BC;
+$darkGray: #4d4f52;
+$darkBlue: #051F61;
+$greyColor: #7C7C7C;
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url("fonts/helveticaneue-bold.ttf");
+    font-display: auto;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family:  'Helvetica Neue';
+    src: url("fonts/helveticaneue-light.ttf");
+    font-display: auto;
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url("fonts/helveticaneue-medium.ttf");
+    font-display: auto;
+    font-weight: 600;
+}
+
+$mainfont  : 'Helvetica Neue', sans-serif; 

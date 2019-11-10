@@ -1,0 +1,52 @@
+.text-heading{
+    p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+.p-relative-img{
+    position: relative;
+}
+.p-absolute-img{
+    position: absolute;
+    width: 370px;
+    left: 17%;
+    height: 500px;
+}
+.p-absolute-img-left {
+    position: absolute;
+    left: 15%;
+    width: 72%;
+    top: -6px;
+}
+.custom-list{
+    li{
+        list-style-type: none;
+        padding: 0;
+        h3{
+            font-size: 1.2rem;
+        }
+        p {
+            font-size: 12px;
+            line-height: 21px;
+        }
+    }
+     li::before {
+        content: url('assets/images/oval.svg');
+        position: absolute;
+        left: -4em;
+        top: 9px;
+        display: block;
+        font-size: 9px;
+    }
+}
+.p-relative{
+    position: relative;
+}
+.car-position {
+    position: absolute;
+    right: 17em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
